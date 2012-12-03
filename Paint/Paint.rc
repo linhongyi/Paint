@@ -1,0 +1,232 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "tarGetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Taiwan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "bitmap1.bmp"
+IDB_BITMAP2             BITMAP                  "bitmap2.bmp"
+IDB_BITMAP3             BITMAP                  "bitmap3.bmp"
+IDB_BITMAP4             BITMAP                  "bitmap4.bmp"
+IDB_BITMAP5             BITMAP                  "bitmap5.bmp"
+IDB_BITMAP6             BITMAP                  "bitmap6.bmp"
+IDB_BITMAP7             BITMAP                  "bitmap7.bmp"
+IDB_BITMAP8             BITMAP                  "bitmap8.bmp"
+IDB_BITMAP9             BITMAP                  "bitmap9.bmp"
+IDB_BITMAP10            BITMAP                  "bitmap10.bmp"
+IDB_BITMAP11            BITMAP                  "bitmap11.bmp"
+IDB_BITMAP12            BITMAP                  "bitmap12.bmp"
+IDB_BITMAP13            BITMAP                  "bitmap13.bmp"
+IDB_BITMAP14            BITMAP                  "bitmap14.bmp"
+IDB_BITMAP15            BITMAP                  "bitmap15.bmp"
+IDB_BITMAP16            BITMAP                  "bitmap16.bmp"
+IDB_BITMAP17            BITMAP                  "bitmap17.bmp"
+IDB_BITMAP18            BITMAP                  "bitmap18.bmp"
+
+IDB_BITMAP19            BITMAP                  "bitmap19.bmp"
+IDB_BITMAP20            BITMAP                  "bitmap20.bmp"
+IDB_BITMAP21            BITMAP                  "bitmap21.bmp"
+IDB_BITMAP22            BITMAP                  "bitmap22.bmp"
+IDB_BITMAP23            BITMAP                  "bitmap23.bmp"
+IDB_BITMAP24            BITMAP                  "bitmap24.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PAINT               ICON                    "Paint.ico"
+IDI_SMALL               ICON                    "small.ico"
+IDI_DIALOG              ICON                    "favicon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_PAINT MENU 
+BEGIN
+    POPUP "檔案"
+    BEGIN
+	    MENUITEM "開新檔案(&New)",                IDM_NEW
+	    MENUITEM "開啟舊檔(&Open)",               IDM_OPEN
+	    MENUITEM "儲存檔案(&Save)",               IDM_SAVE
+	    MENUITEM "另存新檔(&Save As)",            IDM_SAVE_AS
+		MENUITEM SEPARATOR
+        MENUITEM "清除(&C)",                      IDM_CLEAR
+        MENUITEM "結束(&E)",                      IDM_EXIT
+    END
+	  POPUP "編輯"
+    BEGIN
+	    MENUITEM "複製(&Copy)\tCtrl+C",           IDM_COPY
+		MENUITEM "剪下(&Cut)\tCtrl+X",            IDM_CUT
+	    MENUITEM "貼上(&Paste)\tCtrl+V",          IDM_PASTE
+	    MENUITEM "刪除(&Delete)\tCtrl+D",            IDM_DELETE
+		MENUITEM SEPARATOR
+        MENUITEM "復原(&Undo)\tCtrl+Z",                IDM_UNDO
+        MENUITEM "回復(&Redo)\tCtrl+Y",                IDM_REDO
+    END
+    POPUP "工具"
+    BEGIN
+        MENUITEM "直線(&L)",                          IDM_LINE
+        MENUITEM "矩形(&R)",                          IDM_REC
+        MENUITEM "橢圓形(&E)",                        IDM_CIR
+        MENUITEM "文字(&T)",                          IDM_WORD
+		MENUITEM "選取(&S)",                          IDM_SELECT
+        MENUITEM SEPARATOR
+    END
+    POPUP "關於"
+    BEGIN
+        MENUITEM "蒙恬小畫家",                       IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_PAINT ACCELERATORS 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+	"^C",           IDM_COPY,               ASCII,  NOINVERT
+	"^X",           IDM_CUT,                ASCII,  NOINVERT
+	"^V",           IDM_PASTE,              ASCII,  NOINVERT
+	"^D",           IDM_DELETE,             ASCII,  NOINVERT
+	"^N",           IDM_NEW,                ASCII,  NOINVERT
+	"^Q",           IDM_OPEN,               ASCII,  NOINVERT
+	"^S",           IDM_SAVE,               ASCII,  NOINVERT
+	"^A",           IDM_SAVE_AS,            ASCII,  NOINVERT
+	"^Z",           IDM_UNDO,               ASCII,  NOINVERT
+	"^Y",           IDM_REDO,               ASCII,  NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 80
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "關於蒙恬小畫家"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+  
+    ICON            IDI_DIALOG,IDC_STATIC,14,14,21,20
+    LTEXT           "蒙恬小畫家1.0版",IDC_STATIC,55,14,114,8,SS_NOPREFIX
+    LTEXT           "蒙恬科技股份有限公司",IDC_STATIC,45,26,114,8
+	LTEXT           "Author: HowardLin",IDC_STATIC,55,38,114,8
+	LTEXT           "Date: 1992-2012.09",IDC_STATIC,55,50,114,8
+    DEFPUSHBUTTON   "OK",IDOK,57,62,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""tarGetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_INIAPP_TITLE        "Untitled  -Painter" 
+    IDS_APP_TITLE           " -Painter"
+    IDC_PAINT               "PAINT"
+END
+
+#endif    // Chinese (Taiwan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

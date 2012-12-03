@@ -1,0 +1,9 @@
+LIBRARY dllmy
+EXPORTS
+	Welcome = WelcomeUseThisDLL @1 NONAME
+	LongSwap @2
+	IntSwap @3
+	Normalization @4
+	FindMaxScopeWithFourPoint @5
+	TunePtsWithPosY @6
+	InverseWordNormalization @7

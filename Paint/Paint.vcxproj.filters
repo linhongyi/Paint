@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Cmd">
+      <UniqueIdentifier>{0a21650e-40fa-4402-8dc7-2fdfab25fb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\List">
+      <UniqueIdentifier>{1e82be80-a6d6-4c0b-b4cb-f21d9ba736c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RedoUndo">
+      <UniqueIdentifier>{6b57ce42-726f-4562-8807-71529da7e885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cmd">
+      <UniqueIdentifier>{7f09e2ee-0b0a-475a-8ccf-eb3dff500474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RedoUndo">
+      <UniqueIdentifier>{094a6239-b813-462c-bd38-7553727d3e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\List">
+      <UniqueIdentifier>{4757396b-66ea-4c22-9d98-2962b769c6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Clipboard">
+      <UniqueIdentifier>{92ac4561-79af-4134-b19f-343b8d0b2fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Clipboard">
+      <UniqueIdentifier>{b738ea66-c817-4b41-bdd4-2c228212d2f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View">
+      <UniqueIdentifier>{d7d83a26-8f55-4fb2-9d50-ea201fdc292f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{dfe64461-5df3-4aac-91d8-708d97b9ce75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dll">
+      <UniqueIdentifier>{01afc733-d0fe-4c5a-a781-1972dc5eb5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dll">
+      <UniqueIdentifier>{f19e703a-e534-4c98-ad66-43bbbf82a3c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CFileControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CHitTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CInverseWordInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMouseControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonVar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSelectRecInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugMsgOutputHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Paint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PenSetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollBarHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddNewGraphCmd.cpp">
+      <Filter>Source Files\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="AddWordCmd.cpp">
+      <Filter>Source Files\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="WarningCmd.cpp">
+      <Filter>Source Files\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="NewTargetGraphSelectCmd.cpp">
+      <Filter>Source Files\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifyGarphCmd.cpp">
+      <Filter>Source Files\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifyEditWordCmd.cpp">
+      <Filter>Source Files\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteWordCmd.cpp">
+      <Filter>Source Files\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteGraphCmd.cpp">
+      <Filter>Source Files\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeWordBgColorCommand.cpp">
+      <Filter>Source Files\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeWordColorCommand.cpp">
+      <Filter>Source Files\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeWordRecScopeCommand.cpp">
+      <Filter>Source Files\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Source Files\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="AddRedoUndoPaintInfo.cpp">
+      <Filter>Source Files\RedoUndo</Filter>
+    </ClCompile>
+    <ClCompile Include="RedoUndoController.cpp">
+      <Filter>Source Files\RedoUndo</Filter>
+    </ClCompile>
+    <ClCompile Include="Originator.cpp">
+      <Filter>Source Files\RedoUndo</Filter>
+    </ClCompile>
+    <ClCompile Include="SgWordDataModelControler.cpp">
+      <Filter>Source Files\RedoUndo</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseListNode.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="WordNodeInfo.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListNode.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Memento.cpp">
+      <Filter>Source Files\RedoUndo</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListController.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Invoker.cpp">
+      <Filter>Source Files\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphClipboardControl.cpp">
+      <Filter>Source Files\Clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="CWordClipboardControl.cpp">
+      <Filter>Source Files\Clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="ClipboardControl.cpp">
+      <Filter>Source Files\Clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawRec.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawLine.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawTool.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawCircular.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextOut.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleClipboard.cpp">
+      <Filter>Source Files\Clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasisGraph.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolKits.cpp">
+      <Filter>Source Files\Dll</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CFileControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHitTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CInverseWordInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMouseControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonVar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSelectRecInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugMsgOutputHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Paint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PenSetting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollBarHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddNewGraphCmd.h">
+      <Filter>Header Files\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="AddWordCmd.h">
+      <Filter>Header Files\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeWordBgColorCommand.h">
+      <Filter>Header Files\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeWordColorCommand.h">
+      <Filter>Header Files\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeWordRecScopeCommand.h">
+      <Filter>Header Files\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteGraphCmd.h">
+      <Filter>Header Files\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteWordCmd.h">
+      <Filter>Header Files\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyEditWordCmd.h">
+      <Filter>Header Files\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="WarningCmd.h">
+      <Filter>Header Files\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyGarphCmd.h">
+      <Filter>Header Files\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="NewTargetGraphSelectCmd.h">
+      <Filter>Header Files\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseListNode.h">
+      <Filter>Header Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListController.h">
+      <Filter>Header Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="AddRedoUndoPaintInfo.h">
+      <Filter>Header Files\RedoUndo</Filter>
+    </ClInclude>
+    <ClInclude Include="RedoUndoController.h">
+      <Filter>Header Files\RedoUndo</Filter>
+    </ClInclude>
+    <ClInclude Include="WordNodeInfo.h">
+      <Filter>Header Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListNode.h">
+      <Filter>Header Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="Memento.h">
+      <Filter>Header Files\RedoUndo</Filter>
+    </ClInclude>
+    <ClInclude Include="Originator.h">
+      <Filter>Header Files\RedoUndo</Filter>
+    </ClInclude>
+    <ClInclude Include="SgWordDataModelControler.h">
+      <Filter>Header Files\RedoUndo</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoker.h">
+      <Filter>Header Files\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphClipboardControl.h">
+      <Filter>Header Files\Clipboard</Filter>
+    </ClInclude>
+    <ClInclude Include="CWordClipboardControl.h">
+      <Filter>Header Files\Clipboard</Filter>
+    </ClInclude>
+    <ClInclude Include="ClipboardControl.h">
+      <Filter>Header Files\Clipboard</Filter>
+    </ClInclude>
+    <ClInclude Include="BasisGraph.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawTool.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawLine.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawRec.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawCircular.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextOut.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleClipboard.h">
+      <Filter>Header Files\Clipboard</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolKits.h">
+      <Filter>Header Files\Dll</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap12.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap13.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap14.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap15.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap17.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap18.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap19.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap20.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap21.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap22.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap23.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap24.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Paint.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="nobita.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Paint.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
