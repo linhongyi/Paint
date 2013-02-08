@@ -3,7 +3,7 @@ Paint
 1. The Program is written by C++ and win32 API.
 2. These are many features as the following:
  * To Draw Line, Circle, Rectangle, and Word.
- * Support File Control. Ex (open file, close file, etc)
+ * Support File Control. Ex (Open File, Close File, etc)
  * Support Redo, Undo.
  * Support Copy, Paste, Cut.
 
